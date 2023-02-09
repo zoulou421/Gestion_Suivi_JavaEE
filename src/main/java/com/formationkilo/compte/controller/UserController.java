@@ -44,7 +44,7 @@ public class UserController extends HttpServlet {
         user.setUsername(username);
         user.setPassword(password);
 
-        userDao.saveUser(user);
+        userDao.saveUser(user);//Faire une sauvegarde des données soumis depuis le formulaire
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("account-succes.jsp");
         dispatcher.forward(request, response);
