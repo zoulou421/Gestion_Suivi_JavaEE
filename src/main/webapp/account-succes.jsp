@@ -16,7 +16,7 @@
  <div class="container">
   <div class="row col-md-10 col-md-offset-3">
    <div class="card card-body">
-   <h1 style="color:green;">Félicitations votre compte a été créé avec succès!</h1>
+   <h1 style="color:green;">Félicitations votre compte a été créé avec succès</h1>
    </div>
   </div>
  </div>
